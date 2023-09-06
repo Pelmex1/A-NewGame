@@ -6,12 +6,10 @@ public class MoveScript : MonoBehaviour
 {
     [SerializeField] private GameObject move;
     [SerializeField] private float speed;
-    // Start is called before the first frame update
     void Start()
     {
         move.GetComponent<Rigidbody>();
     }
-    // Update is called once per frame
     void Update()
     {
         float vertical = Input.GetAxisRaw("Vertical");
