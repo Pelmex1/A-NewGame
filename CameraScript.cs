@@ -6,12 +6,10 @@ public class CameraScript : MonoBehaviour
 {
     [SerializeField] private GameObject player;
     private Vector3 CurretPosition;
-    // Start is called before the first frame update
     void Start()
     {
         CurretPosition = GetComponent<Transform>().position;
     }
-    // Update is called once per frame
     void Update()
     {
       
