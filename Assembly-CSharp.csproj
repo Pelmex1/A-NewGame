@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\PlayerPickap.cs" />
+     <None Include="Assets\FREE Skyboxes - Terrestrial\Readme.txt" />
     <Reference Include="UnityEngine">
         <HintPath>E:\unity\2020.3.48f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
