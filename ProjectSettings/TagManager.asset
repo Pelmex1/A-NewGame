@@ -4,7 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - stick
+  - fire
+  - player
+  - woos in hand
   layers:
   - Default
   - TransparentFX
