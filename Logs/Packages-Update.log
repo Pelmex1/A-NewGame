@@ -44,19 +44,3 @@ The following packages were added:
   com.unity.textmeshpro@3.0.6
   com.unity.timeline@1.4.8
   com.unity.ugui@1.0.0
-
-=== Thu Sep 14 16:43:22 2023
-
-Packages were changed.
-Update Mode: updateDependencies
-
-The following packages were updated:
-  com.unity.timeline from version 1.4.8 to 1.6.4
-
-=== Tue Sep 19 17:30:14 2023
-
-Packages were changed.
-Update Mode: updateDependencies
-
-The following packages were added:
-  com.unity.ide.visualstudio@2.0.18
