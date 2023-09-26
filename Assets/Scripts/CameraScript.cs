@@ -5,16 +5,19 @@ using UnityEngine;
 public class CameraScript : MonoBehaviour
 {
     [SerializeField] private GameObject player;
-    private Vector3 CurrentPosition;
+    private Vector3 CurretPosition;
+    // Start is called before the first frame update
     void Start()
     {
-        CurrentPosition = GetComponent<Camera>().GetComponent<Transform>().position;
+        CurretPosition = GetComponent<Transform>().position;
     }
+    // Update is called once per frame
     void Update()
     {
-        CurrentPosition.z = Mathf.Lerp(transform.position.z,player.transform.position.z - 4, Time.deltaTime);
-        CurrentPosition.x = Mathf.Lerp(transform.position.x, player.transform.position.x, Time.deltaTime);
-        CurrentPosition.y = Mathf.Lerp(transform.position.y, player.transform.position.y + 3, Time.deltaTime);
-        transform.position = CurrentPosition;
+      
+        CurretPosition.z = Mathf.Lerp(transform.position.z,player.transform.position.z -7, Time.deltaTime);
+        CurretPosition.x = Mathf.Lerp(transform.position.x, player.transform.position.x, Time.deltaTime);
+        CurretPosition.y = Mathf.Lerp(transform.position.y, player.transform.position.y +7, Time.deltaTime);
+        transform.position = CurretPosition;
     }
 }
